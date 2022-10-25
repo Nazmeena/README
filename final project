@@ -1,0 +1,86 @@
+Project Title
+DFE Cloud Specialism-Final Project
+
+Table Of Contents
+
+
+	 Introduction: Flask Application explained
+	Technology use
+	Database: ERD diagram and tables
+	
+
+
+
+	2. WebServer using Docker
+	3. CI/CD Pipeline using Azure
+	4. Jenkins Remoting Project
+	6. Deploying a Containerized Web Application
+	7. Building Version Control System
+•	DevOps Projects: Why Are They So Important?
+•	Conclusion
+•	FAQs
+•	Additional Resources
+
+
+
+Introduction
+
+Flask is a small and lightweight Python web framework that offers suitable tools and features that make creating web application in python easier. It gives developers flexibility and is a more accessible framework for new developers since you can build a web application quickly using only a single Python file. In this project I will be creating a basic web application using the Flask web framework and will also be applying the following technology throughout my project.
+
+Technology
+
+	Python
+	Pytest
+	Flask
+	Docker/Docker Compose
+	MYSQL
+
+
+Database
+
+I will be creating a database which will use a MysQL container for my application. It will contain two tables with a relationship. There are three main types of database relationships in a relational database design.
+
+1.	One-to-Many (or Many-to-one) relationship
+2.	One-to-One relationship
+3.	Many-to-Many-relationship
+
+One-to-Many relationships
+One-to-Many relationship exists when a single record in the 1st table is having a relationship with many records in the 2nd table. In this project I will be focusing on the On-to-Many relationships in which I will be explaining it with an ERD diagram and using tables. The example I would like to apply to this project is the following: “One employee can have many salary slips”.
+
+Entities
+
+1.	Employee
+2.	Salary slips
+
+Attributes of Employee
+
+1.	Employee id
+2.	Employee name
+
+Attributes of Salary slips
+
+1.	Salary issued
+2.	Year
+3.	Month
+4.	Total Salary
+
+Relationship
+One “Employee” can have many “Salary Slips”.
+
+
+
+ I would like to convert the ERD diagram into database tables and will be showing a One-to-Many relationship. I will be making three tables, two tables for two entities and one table for this relationship as we have two entities and one relationship.
+1.	The first table id for the “Employee” entity.
+2.	The Second table is for a relationship that an Employee “can get” Salary slips.
+3.	The third table is for the “Salary slips” entity.
+
+ 
+
+Non-Key Attributes: are the attributes without any key.
+
+Primary-key Attributes are the attributes with the primary key and used for the unique identification of any row. Any value in the primary key attribute can’t be repeated again and again.
+
+Foreign-Key Attributes: are the attributes that set a foreign key. A foreign key is the primary key of one table that is linked with the field of another table.
+
+In this example, the primary key is set with “salary slip id” in the 2nd table, this is because the values of this attribute are unique, and values are not repeating again and again.
+
