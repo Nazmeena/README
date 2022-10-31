@@ -47,6 +47,10 @@ A docker container will hold the Flask APP which will be accessible by users via
 
 Infrastructure
 
+Appliction
+![image](https://user-images.githubusercontent.com/111758676/199003960-196dbcdc-297e-437c-99d6-220e64ce47b3.png)
+
+
 Environment	Description	Purpose
 Microsoft Azure	Cloud computing environment that often services scenarios of IaaS & PaaS	Azure will be hosting the Virtual Machines that will host the application and provide the network connectivity & functionality 
 Linux	Host Operating System	The docker Swam will sit on 3 Linux hosts
